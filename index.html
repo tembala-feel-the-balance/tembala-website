@@ -9,113 +9,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Halimum&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 
   <style>
-    /* Grundlegende Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin:0; padding:0; box-sizing:border-box; }
 
-    body {
-      font-family: 'Montserrat', sans-serif;
-      line-height: 1.6;
-      background-color: #fefefe;
-      color: #333;
-    }
+    body { font-family: 'Montserrat', sans-serif; line-height:1.6; background:#fefefe; color:#333; }
+    h1,h2,h3,h4,h5 { font-family:'Halimum', cursive; color:#2c3e50; margin-bottom:1rem; }
+    a { text-decoration:none; color:inherit; }
 
-    h1, h2, h3, h4, h5 {
-      font-family: 'Halimum', cursive;
-      margin-bottom: 1rem;
-      color: #2c3e50;
-    }
+    header { background:#ffe4e1; padding:2rem 1rem; text-align:center; }
+    nav { margin-top:1rem; }
+    nav a { margin:0 1rem; font-weight:500; }
+    .cta-btn { display:inline-block; padding:0.75rem 1.5rem; margin-top:1rem; background:#76c7c0; color:white; font-weight:bold; border-radius:12px; transition:0.3s; }
+    .cta-btn:hover { background:#5da9a4; }
 
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
+    section { padding:4rem 1rem; text-align:center; }
+    .products { display:flex; flex-wrap:wrap; justify-content:center; gap:2rem; margin-top:2rem; }
+    .products img { max-width:300px; width:100%; border-radius:12px; }
 
-    header {
-      background-color: #ffe4e1; /* zartes Rosa */
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-
-    nav {
-      margin-top: 1rem;
-    }
-
-    nav a {
-      margin: 0 1rem;
-      font-weight: 500;
-    }
-
-    .cta-btn {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      margin-top: 1rem;
-      background-color: #76c7c0; /* Mint */
-      color: white;
-      font-weight: bold;
-      border-radius: 12px;
-      transition: 0.3s;
-    }
-
-    .cta-btn:hover {
-      background-color: #5da9a4;
-    }
-
-    section {
-      padding: 4rem 1rem;
-      text-align: center;
-    }
-
-    section img {
-      max-width: 100%;
-      height: auto;
-      margin-top: 1rem;
-      border-radius: 12px;
-    }
-
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- HEADER -->
-  <header>
-    <h1>Tembala</h1>
-    <p>Feel the Balance</p>
-    <nav>
-      <a href="#shop">Shop</a>
-      <a href="#about">Über uns</a>
-      <a href="#contact">Kontakt</a>
-    </nav>
-    <a href="#shop" class="cta-btn">Zum Shop</a>
-  </header>
-
-  <!-- SHOP SECTION -->
-  <section id="shop">
-    <h2>Unsere Produkte</h2>
-    <p>Hier findest du unsere aktuellen Highlights:</p>
-    <!-- Bilder einfügen -->
-    <img src="images/product1.png" alt="Produkt 1">
-    <img src="images/product2.png" alt="Produkt 2">
-  </section>
-
-  <!-- ABOUT SECTION -->
-  <section id="about">
-    <h2>Über uns</h2>
-    <p>Wir glauben an Balance und gute Vibes.</p>
-    <img src="images/team.png" alt="Unser Team">
-  </section>
-
-  <!-- CONTACT SECTION -->
-  <section id="contact">
-    <h2>Kontakt</h2>
-    <p>Schreibe uns eine Nachri
+    footer { background:#
